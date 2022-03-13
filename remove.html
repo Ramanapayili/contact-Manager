@@ -1,0 +1,37 @@
+<h2>Remove</h2>
+
+<h3>Are you sure to want remove this record?</h3>
+
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <div class="form-group">
+            <label for="FirstName" class="control-label col-md-2"> First Name</label>
+            <div class="col-md-10">
+                <input type="text" name="FirstName" class="form-control" ng-model="vm.model.middleName" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Phone" class="control-label col-md-2">Phone Number</label>
+            <div class="col-md-10">
+                <input type="text" name="Phone" class="form-control" ng-model="vm.model.middleName" />
+            </div>
+        </div>
+    </dl>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Delete Contact" ng-disabled="!form.$valid" class="btn btn-primary" />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Cancel" ng-disabled="!form.$valid" class="btn btn-primary" />
+                    
+                </div>
+            
+        </div>
+        
+    
+
+    
+</div>
